@@ -6,8 +6,8 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Droid Serif', 'Times New Roman', 'Times', serif;
-  color: rgba(10,60,150, 0.8);
-  text-shadow: 1px 4px 6px #fff, 0 0 0 #000, 1px 4px 6px #def;
+  color: rgb(0, 0, 0);
+  /*text-shadow: 1px 4px 6px #fff, 0 0 0 #000, 1px 4px 6px #def;*/
   margin-top: 2px;
   margin-bottom: 2px;
 }
@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .block-half {
-  display: block;
+  display: inline-block;
   float: left;
   margin: 5px;
   padding: 2px;
@@ -46,22 +46,52 @@ h1,h2,h3,h4,h5,h6 {
   width: 22%;
 }
 
+/*
 .shadow {
-  -webkit-box-shadow: 1px 1px 1px 1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    1px 1px 1px 1px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         1px 1px 1px 1px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;  Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+
+  -moz-box-shadow:    1px 1px 1px 1px #ccc;  Firefox 3.5 - 3.6
+  box-shadow:         1px 1px 1px 1px #ccc;  Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5
 }
+*/
 
 .close {
-  color: darkgray;
+  color: white;
   margin-top: 20px;
-  border: 1px dashed darkgray;
+  border: 1px dashed white;
   font-weight: bold;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
   font-size: 14px;
   float: right;
   position: relative;
   padding: 5px;
+}
+
+#one{
+ background-color: rgb(55, 255, 178);
+}
+
+#two{
+  background-color: rgb(101, 255, 248);
+}
+
+#three{
+  background-color: rgb(68, 255, 77);
+}
+
+#four{
+  background-color: rgb(255, 75, 55);
+}
+
+#five{
+  background-color: rgb(50, 232, 142);
+}
+
+#six{
+  background-color: rgb(238, 65, 255);
+}
+
+#seven{
+  background-color: rgb(183, 255, 55);
 }
 
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
