@@ -110,11 +110,10 @@ $(document).ready(function(event) {
 
   // collection
   var cardList = Backbone.Collection.extend({
-
+    url: 'api/cards',
+    model: cardModel,
     intitialize: function() {
       console.log('good times');
-      url: 'api/cards';
-      model: cardModel;
     }
   });
 
